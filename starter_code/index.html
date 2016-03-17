@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon.ico">
 
-    <title>Soundmood</title>
+    <title>Shmeli's Shmurdering Tracks- Soundcloud Edition</title>
 
     <!-- CSS -->
     <!-- Bootstrap -->
@@ -14,21 +14,27 @@
     <!-- Bootstrap Jumbotron -->
     <link rel="stylesheet" href="css/jumbotron-narrow.css">
 
-    <!-- JS -->
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <!-- Bootstrap -->
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <!-- Soundcloud API -->
-    <script src="//connect.soundcloud.com/sdk.js"></script>
-    <!-- Our JS -->
-    <script src="js/script.js"></script>
+<!-- JS -->
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<!-- Soundcloud API -->
+<script src="//connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
+<!-- Our JS -->
+<script src="js/script.js"></script>
 
-  </head>
-  <body>
+<style>
+  body {
+    background-image: url("https://cdn.vectorstock.com/i/composite/21,12/music-from-heart-sketch-cartoon-vector-1832112.jpg");
+  }
+</style>
+
+</head>
+
+<body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Soundmood</h1>
+        <h1> <font size ="6"> Shmeli's Shmurdering Tracks- Soundcloud Edition </font></h1>
         <p class="lead">Listen to your heart, you can never go wrong.</p>
         <form>
           <div class="input-group">
@@ -39,6 +45,13 @@
 
         <br>
         <p><a id="random" class="btn btn-lg btn-success" href="#" role="button">Randomize</a></p>
+        <button id= "mood1">Happy</button>
+        <button id= "mood2">Sad</button>
+        <button id= "mood3">Mad</button>
+        <button id= "mood4">Tired</button>
+        <button id= "mood5">Stressed</button>
+        <button id= "mood6">Lit</button>
+        
         <p id="moodstatus"></p>
         <p id="songtitle"></p>
       </div>
